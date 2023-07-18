@@ -1,0 +1,31 @@
+.container {
+	margin-top: 50px;
+	background-color: coral;
+    background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+    
+}
+
+.container .box {
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+    background-color: #1a1a1a;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.box:hover{
+    transform: scale(0.98);
+    border-radius: 20px;
+    background-color: red;
+}
+.box:hover{
+    box-shadow: blue;
+}
